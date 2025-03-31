@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+/*entete du site */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*classe de l'entete*/
+.entete{
+    background-color: rgb(182, 227, 212); /* Fond bleu clair */
+    padding: 10px 20px;
+    height: 75px;
+    
+}
+
+.entete h1 {
+    margin: 0; /* Supprime la marge par défaut du h2 */
+    flex-grow: 1; /* Permet au texte de prendre l'espace disponible */
+    text-align: center; /* Centre le texte (optionnel) */
+    color: #000; /* Texte blanc */
+    font-size: 24px;
+    display: inline-block;
+}
+
+.entete img:last-child {
+    margin-left: auto; /* Pousse la deuxième image à l'extrême droite */
+}
+
+
+.entete img {
+    height: 50px;
+    justify-content: space-between;
+}
+
+h1{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*le contenue principal*/
+/*body{
+    background-image: url(Université.png) ;
+}*/
+
+main a {
+    text-decoration: none;
+
+}
+main{
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*la section des sujet*/
+section{
+    width: 600px;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    background-color: #1E90FF;
+    margin-left: 30%;
+    margin-top: 50px;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    
+}
+section a{
+    display: inline;
+    padding: 10px;
+    color: #000;
+    
+    
+}
+section a:hover{
+    color: #fff;
+}
+footer {
+    flex-shrink: 0;
+    width: 100%;
+    background: rgb(182, 227, 212);
+}
+.contenue_footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 75px;
+
+}
+
+.liste_formation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.liste_formation li {
+    display: block;
+    margin: 5px 0;
+}
+.liste_formation a {
+    text-decoration: none;
+    color: #333;
+    white-space: nowrap;
+}
+h3{
+    text-align: center;
+}
